@@ -59,3 +59,19 @@ The trained model and scaler were saved using `joblib` and deployed via Streamli
 ---
 
 ## 📁 Project Structure
+├── app.py
+├── Wholesale_kmeans.ipynb
+├── wholesale_robustness_check.ipynb
+├── kmeans_wholesale.pkl
+├── scaler_wholesale.pkl
+├── Wholesale customers data.csv
+├── requirements.txt
+└── README.md
+
+---
+
+## 🚀 How to Run Locally
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
