@@ -62,7 +62,7 @@ if st.button("Predict Customer Segment"):
     user_scaled = scaler.transform(user_data)
     cluster = kmeans.predict(user_scaled)[0]
 
-    st.success(f"This customer belongs to **Cluster {cluster}**")
+    st.success(f"This customer belongs to **Cluster {cluster+1}**")
 
     cluster_descriptions = {
         0: "Retail-oriented buyers (high grocery & detergents)",
